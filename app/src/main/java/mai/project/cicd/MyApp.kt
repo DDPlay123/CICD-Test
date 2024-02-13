@@ -11,7 +11,7 @@ class MyApp : Application() {
         super.onCreate()
         AppCenter.start(
             this,
-            "42f88782-3021-47cf-b9ca-1311cddb638f",
+            "6bc21729-ef7c-4f2a-a952-317429183f97",
             // 監測的服務
             Analytics::class.java, Crashes::class.java
         )
