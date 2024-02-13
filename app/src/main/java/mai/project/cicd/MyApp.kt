@@ -11,7 +11,7 @@ class MyApp : Application() {
         super.onCreate()
         AppCenter.start(
             this,
-            BuildConfig.APP_CENTER_SECRET,
+            "6bc21729-ef7c-4f2a-a952-317429183f97",
             // 監測的服務
             Analytics::class.java, Crashes::class.java
         )
