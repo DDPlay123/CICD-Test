@@ -13,5 +13,5 @@ https://ddplay123.github.io/CICD-Test/
 [![Build status](https://build.appcenter.ms/v0.1/apps/cbe5af17-be98-4117-9ab5-2cb2611fcc2e/branches/test/badge)](https://appcenter.ms)
 
 3. Master Branch:
-[![Build status](https://build.appcenter.ms/v0.1/apps/cbe5af17-be98-4117-9ab5-2cb2611fcc2e/branches/test/badge)](https://appcenter.ms)
+[![Build status](https://build.appcenter.ms/v0.1/apps/cbe5af17-be98-4117-9ab5-2cb2611fcc2e/branches/master/badge)](https://appcenter.ms)
 
