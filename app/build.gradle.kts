@@ -1,13 +1,7 @@
-import java.util.Properties
-
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
-
-val lpf: File = rootProject.file("local.properties")
-val lp = Properties()
-lp.load(lpf.inputStream())
 
 android {
     namespace = "mai.project.cicd"
@@ -19,8 +13,6 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-
-        buildConfigField("String", "APP_CENTER_SECRET", lp.getProperty("appSecret"))
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
